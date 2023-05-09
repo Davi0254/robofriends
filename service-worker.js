@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Davi0254/relativepath/precache-manifest.2b1fe814dec6be5adc1fb14ea72a8fe7.js"
+  "/Davi0254/robofriends/precache-manifest.0baeb7745c02f64b496189047bcbbcfc.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Davi0254/relativepath/index.html", {
+workbox.routing.registerNavigationRoute("/Davi0254/robofriends/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
